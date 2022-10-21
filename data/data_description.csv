@@ -15,12 +15,12 @@ dairyFarm"
 13,採樣日期,dayOfSampling
 14,月齡,ageOfTheMoon
 15,檢測日期,dateOfTest
-16,最後配種日期,lastDateOfBredding
-17,最後配種精液,semenOfLastBredding
-18,配種次數,countOfBredding
+16,最後配種日期,lastDateOfBreeding
+17,最後配種精液,semenOfLastBreeding
+18,配種次數,countOfBreeding
 19,前次分娩日期,lastDateOfChildbirth
-20,第一次配種日期,firstDateOfBredding
-21,第一次配種精液,lastDateOfBredding
+20,第一次配種日期,firstDateOfBreeding
+21,第一次配種精液,semenOfFirstBreeding
 ,,
 分娩資料 (檔案名稱：birth.csv),,
 1,乳牛編號,numOfCow
@@ -40,12 +40,12 @@ difficultyOfGivingBirth"
 ,,
 配種紀錄 (檔案名稱：breed.csv),,
 1,乳牛編號,numOfCow
-2,配種日期,dateOfBredding
-3,配種精液,semenOfBredding
+2,配種日期,dateOfBreeding
+3,配種精液,semenOfBreeding
 4,登錄日期,dateOfLogin
 5,孕檢,"
 pregnancyTest"
-6,配種方式,methodOfBredding
+6,配種方式,methodOfBreeding
 7,精液種類,typeOfSemen
 8,酪農場代號,"
 dairyFarm"
