@@ -16,3 +16,33 @@
 
     RMSE = $\sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}$
 
+#### 預測目標
+
+* 本議題預測目標為每牧場每月的乳量，預測結果為每牧場每月的乳量，單位為公斤 (kg)。
+* 背景知識：母牛需要受孕才能生產乳量，因此每頭母牛每年的乳量會有一定的季節性，例如：春季為乳量最高的季節，夏季為乳量最低的季節。
+
+
+#### 處理流程
+
+* SOP
+    1. df.info() 查看資料型態和確認資料是否有缺失值
+    1.1 df.isnull().sum() 查看缺失值
+    2. df.describe() 查看資料的統計量
+    3. df.corr() 查看資料的相關性，心裡有個底哪一些和目標值有關
+    # OPTION
+    4. df.hist() 查看資料的分布
+    6. df.boxplot() 查看資料的分布
+    14. df.crosstab() 群組
+
+
+1. Preprocessing
+    1. drop columns (確認無用的欄位)
+    2. fillna (填補缺失值)
+    3. one-hot encoding (將類別型欄位轉為數值型欄位)
+    4. convert to datetime (將日期欄位轉為 datetime 格式)
+
+
+
+#### 參考資料
+1. [農業知識家：「請問乳牛不懷孕可以產牛奶嗎？」](https://kmweb.coa.gov.tw/knowledge_view.php?id=7673)
+2. 
