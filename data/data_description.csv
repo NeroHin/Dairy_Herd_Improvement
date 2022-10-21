@@ -1,0 +1,64 @@
+﻿檢測報告 (檔案名稱：report.csv),,
+1,ID,id
+2,資料年度,year
+3,資料月份,month
+4,酪農場代號 (A: 桃園楊梅，B: 彰化福興，C: 屏東萬丹),"
+dairyFarm"
+5,乳牛編號,numOfCow
+6,父親牛精液編號,numOfCowFatherSemen
+7,母親乳牛編號,numOfCowMotherSemen
+8,出生日期,birthday
+9,胎次,parity
+10,泌乳天數,dayOfLactation
+11,乳量,milkVolume
+12,最近分娩日期,lastDateOfBirth
+13,採樣日期,dayOfSampling
+14,月齡,ageOfTheMoon
+15,檢測日期,dateOfTest
+16,最後配種日期,lastDateOfBredding
+17,最後配種精液,semenOfLastBredding
+18,配種次數,countOfBredding
+19,前次分娩日期,lastDateOfChildbirth
+20,第一次配種日期,firstDateOfBredding
+21,第一次配種精液,lastDateOfBredding
+,,
+分娩資料 (檔案名稱：birth.csv),,
+1,乳牛編號,numOfCow
+2,分娩日期,dateOfChildbirth
+3,乾乳日期,dateOfDryMilk
+4,犢牛編號 1,firstNumOfCalf
+5,犢牛編號 2,secondNumOfCalf
+6,母牛體重,numOfmonCow
+7,登錄日期,dateOfLogin
+8,計算胎次,countOfwomb
+9,胎次,parityOfCow
+10,分娩難易度,"
+difficultyOfGivingBirth"
+11,犢牛體型,sizeOfCalf
+12,犢牛性別,genderOfCalf
+13,酪農場代號,dairyFarm
+,,
+配種紀錄 (檔案名稱：breed.csv),,
+1,乳牛編號,numOfCow
+2,配種日期,dateOfBredding
+3,配種精液,semenOfBredding
+4,登錄日期,dateOfLogin
+5,孕檢,"
+pregnancyTest"
+6,配種方式,methodOfBredding
+7,精液種類,typeOfSemen
+8,酪農場代號,"
+dairyFarm"
+,,
+健康狀況 (spec.csv),,
+1,乳牛編號,numOfCow
+2,狀況類別,typeOfSituation
+3,狀況代號,codeOfSituation
+4,狀況日期,dateOfSituation
+5,備註,comment
+6,登錄日期,dateOfLogin
+7,酪農場代號,dairyFarm
+,,
+上傳範例檔案 (submission.csv),,
+ID,report.csv 的欄位 ID,id
+1,預測乳量,milkVolumeOfPredict
