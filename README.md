@@ -22,27 +22,28 @@
 * 背景知識：母牛需要受孕才能生產乳量，因此每頭母牛每年的乳量會有一定的季節性，例如：春季為乳量最高的季節，夏季為乳量最低的季節。
 
 
-#### 處理流程
+####  資料集
 
-* SOP
-    1. df.info() 查看資料型態和確認資料是否有缺失值
-    1.1 df.isnull().sum() 查看缺失值
-    2. df.describe() 查看資料的統計量
-    3. df.corr() 查看資料的相關性，心裡有個底哪一些和目標值有關
-    # OPTION
-    4. df.hist() 查看資料的分布
-    6. df.boxplot() 查看資料的分布
-    14. df.crosstab() 群組
+```
+├── birth.csv # 檢測報告
+├── breed.csv # 分娩資料
+├── report.csv # 配種紀錄
+├── spec.csv # 健康狀況
+```
 
+#### 分析流程系列文章
 
-1. Preprocessing
-    1. drop columns (確認無用的欄位)
-    2. fillna (填補缺失值)
-    3. one-hot encoding (將類別型欄位轉為數值型欄位)
-    4. convert to datetime (將日期欄位轉為 datetime 格式)
-
-
+1. [EDA & data preprocessing]()
+2. Feature engineering
+3. Model training
+4. Model tuning
+5. Model evaluation
+6. submission
 
 #### 參考資料
-1. [農業知識家：「請問乳牛不懷孕可以產牛奶嗎？」](https://kmweb.coa.gov.tw/knowledge_view.php?id=7673)
-2. 
+
+1. [用高科技養牛酪農業數位化商機潛力大](https://www.digitimes.com.tw/iot/article.asp?cat=158&cat1=20&cat2=80&cat3=65&id=0000561454_H9F3CJHO6WY3CJ3FWMWZJ)
+2. [農委會資料開放平台](https://data.coa.gov.tw/Query/AdvSearch.aspx?id=279)
+3. [酪農業邁向智慧化 - 北歐乳製品巨頭 Arla 開發 AI 工具預測產乳量](https://www.digitimes.com.tw/iot/article.asp?cat=158&cat1=20&cat2=80&cat3=65&id=0000563170_R7L0OF4A8EXVJEL0IAGYF)
+4. [氣象局監控站觀測資料查詢](http://e-service.cwb.gov.tw/HistoryDataQuery/index.jsp)
+5. [農業知識家：「請問乳牛不懷孕可以產牛奶嗎？」](https://kmweb.coa.gov.tw/knowledge_view.php?id=7673)
