@@ -1,6 +1,6 @@
 ### 台灣牧場乳量預測
 
-> 本專案為 AIdea 競賽「台灣牧場乳量預測」的解決方案，使用 XGBoost 模型進行預測。
+> 本專案為 AIdea 競賽「台灣牧場乳量預測」的筆記
 
 * AIdea 競賽連結：https://aidea-web.tw/topic/fcc338da-e7ec-4d9e-a860-5dcdd85ba52b?focus=intro11
 
@@ -19,7 +19,7 @@
 #### 預測目標
 
 * 本議題預測目標為每牧場每月的乳量，預測結果為每牧場每月的乳量，單位為公斤 (kg)。
-* 背景知識：母牛需要受孕才能生產乳量，因此每頭母牛每年的乳量會有一定的季節性，例如：春季為乳量最高的季節，夏季為乳量最低的季節。
+* 背景知識：母牛需要受孕才能生產乳量，因此每頭母牛每年的乳量會有一定的季節性。
 
 
 ####  資料集
@@ -33,7 +33,7 @@
 
 #### 分析流程系列文章
 
-1. [EDA & data preprocessing]()
+1. [EDA & data preprocessing](https://medium.com/@NeroHin/aidea-%E7%AB%B6%E8%B3%BD-%E5%8F%B0%E7%81%A3%E7%89%A7%E5%A0%B4%E4%B9%B3%E9%87%8F%E9%A0%90%E6%B8%AC-%E8%A7%A3%E9%A1%8C%E7%AD%86%E8%A8%98-%E4%B8%80-eda-exploratory-data-analysis-%E6%8E%A2%E7%B4%A2%E5%BC%8F-%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E8%B3%87%E6%96%99%E5%89%8D%E8%99%95%E7%90%86-ace501233cf)
 2. Feature engineering
 3. Model training
 4. Model tuning
